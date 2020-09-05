@@ -1,0 +1,260 @@
+
+/*------- Responsive design -------*/
+/* For xl */
+@media (max-width: 1399px){
+
+header {	
+    background-size: 802px !important;
+    background-position: 806px bottom !important;
+    background-position-y: bottom;
+}
+header h1 {
+    font-size: 42px;
+}
+header p {
+    font-size: 15px;
+}
+.about-section{
+    background-size: 615px;
+}
+.question-section h1{
+    font-size: 22px;
+}
+.members-section {
+    background-size: 650px;
+}
+
+}
+
+
+/* For lg */
+@media (max-width: 1199px){
+header h1 {
+    font-size: 38px;
+    line-height: 1.4;
+}
+
+header {
+    background-position: 705px bottom !important;
+}
+
+header p {
+    line-height: 1.7;
+    margin: 20px 0;
+    font-size: 15px;
+}
+.banner-content a{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.banner-content a i{
+	font-size: 28px;
+}
+.partner-section .row div{
+	padding: 2rem!important;
+}
+.feature h1 {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+p {
+    line-height: 1.7;
+    font-size: 15px;
+}
+.feature a {
+    margin-top: 10px;
+}
+.about-section{
+    background-size: 500px !important;
+}
+.about-section h1{
+    font-size: 27px;
+}
+.question-section ul li {
+    line-height: 1.7;
+    font-size: 14px;
+}
+.question-section ul li i {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+}
+.question-section h1 {
+    font-size: 20px;
+}
+.members-section {
+    background-size: 550px;
+}
+.members-section h1 {
+    font-size: 28px;
+}
+}
+
+
+/* For md */
+@media(max-width: 991px){
+	header {
+    background-size: 400px;
+}
+.banner-content {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+header h1 {
+    font-size: 32px;
+}
+header p {
+    line-height: 1.6;
+    margin: 30px 0;
+    font-size: 14px;
+}
+header {
+    background-position: 650px bottom !important;
+    background-size: 600px !important;
+}
+.partner-section .row div {
+    padding: 1rem!important;
+}
+.feature-padding{
+    padding-top: 30px;
+}
+.about-section{
+    background-size: 400px !important;
+    padding: 60px 0;
+}
+.about-section h1{
+    font-size: 22px;
+}
+.members-section {
+    background-position: 600px bottom !important;
+    background-size: 600px !important;
+}
+.members-section h1 {
+    font-size: 28px;
+    line-height: 1.4;
+}
+.price-heading {
+    padding: 40px 20px;
+}
+.price-table ul li {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.price-table ul li i {
+    margin-right: 8px;
+}
+.order-now {
+    padding: 40px 20px;
+}
+.heading h1 {
+    font-size: 26px;
+}
+.heading p{
+    font-size: 14px;
+}
+
+
+.form a {
+        padding: 9px 218px;
+        box-sizing: border-box;
+}
+.footer-top h4 {
+        margin-top: 20px;
+}
+.footer-top {
+        padding: 55px 0;
+}
+.footer-bottom {
+        display: inherit;
+}
+.footer-logo{
+    display: none;
+}
+.footer-bottom p{
+    padding-bottom: 15px;
+}
+
+}
+
+
+/* For sm */
+@media(max-width: 767px){
+header {
+    background-image: url('');
+}
+.banner-content{
+	text-align: center;
+}
+header h1 {
+    font-size: 42px;
+}
+.partner-section .row div {
+    padding: 1rem 10px !important;
+}
+.about-section{
+    background-size: 0 !important;
+}
+.question-section ul li {
+    font-size: 16px;
+}
+.members-section{
+    background-image: url('');
+    
+}
+ .price-table:hover .price-heading{
+    padding-top: 60px;
+} 
+.price-table{
+    margin-top: 20px;
+}
+
+
+
+.footer-logo{
+    display: none;
+}
+.footer-bottom p{
+    padding-bottom: 13px;
+}
+}
+
+
+/*For mini small */
+@media(max-width: 575px){
+.header h1{
+	font-size: 30px;
+}
+.banner-content a{
+	margin-bottom: 15px;
+}
+.banner-content {
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
+}
+
+.feature {
+    margin-bottom: 30px;
+   /*  height: 300px; */
+}
+.feature h1{
+    font-size: 20px;
+}
+.feature.feature-padding {
+    text-align: center;
+}
+.feature.feature-padding a{
+    justify-content: center;
+}
+.members-section h1 {
+    font-size: 23px;
+}
+.footer-logo{
+    display: none;
+}
+.footer-bottom p{
+    padding-bottom: 12px;
+}
+}
